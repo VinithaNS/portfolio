@@ -24,8 +24,8 @@ return (
               vinithaneyashree2901@gmail.com
             </div>
             <div className='contact-info-item'>
-            <a href="https://www.linkedin.com/in/vinitha-neyashree-59040622a/" target="_blank" className="btn btn-outline-secondary av"><i className="bi bi-linkedin" style={{color:"rgb(65, 201, 255)"}}></i> LinkedIn</a>
-  <a href="https://github.com/VinithaNS" target="_blank" className="btn btn-outline-secondary av"><i className="bi bi-github" style={{color:"rgb(65, 201, 255)"}}></i> Github</a>
+            <a href="https://www.linkedin.com/in/vinitha-neyashree-59040622a/" target="_blank" className="btn btn-outline-secondary av" rel="noreferrer"><i className="bi bi-linkedin" style={{color:"rgb(65, 201, 255)"}}></i> LinkedIn</a>
+  <a href="https://github.com/VinithaNS" target="_blank" className="btn btn-outline-secondary av" rel="noreferrer"><i className="bi bi-github" style={{color:"rgb(65, 201, 255)"}}></i> Github</a>
           </div>
             
          </div>
