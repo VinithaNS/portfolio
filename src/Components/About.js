@@ -5,31 +5,39 @@ import "../Styles/About.css";
 import about from "../images/about.jpg";
 const About = () => {
   return (
-    <div className='abt'>
-      <div className='abt-left'>
-        <div className='abt-card'>
+    <div className="abt">
+      <div className="abt-left">
+        <div className="abt-card">
           <img className="abt-img" src={about} alt={about} />
-
         </div>
       </div>
-      <div className='abt-right'>
-        <h1 className='abt-title'>ABOUT ME</h1>
-        <p className='abt-sub'>
-          I'm a  <span style={{color:"blueviolet",fontSize:"45px"}}>Full Stack Developer/MERN Stack Developer</span>
+      <div className="abt-right">
+        <h1 className="abt-title">ABOUT ME</h1>
+        <p className="abt-sub">
+          I'm a{" "}
+          <span style={{ color: "blueviolet", fontSize: "45px" }}>
+            Full Stack Developer/MERN Stack Developer
+          </span>
         </p>
         <p className="abt-desc">
-          An enthusiastic,hardworking,self-confidence,self-motivated and excited programmer,
-          Who likes to involve in the projects all.I really interest to learn new technologies and implement them.
-          I am focus on completing the work given to me on time.
+          An enthusiastic,hardworking,self-confidence,self-motivated and excited
+          programmer, Who likes to involve in the projects all.I really interest
+          to learn new technologies and implement them. I am focus on completing
+          the work given to me on time.
         </p>
         <div className="resume">
-     <Button   target="_blank" href="https://drive.google.com/file/d/1lSO6KzHQyxW0GY5qUNj6Yc2s_hwEtmJR/view?usp=sharing" rel="noreferrer"  size="large" >Resume</Button>
-     </div> 
+          <Button
+            target="_blank"
+            href="https://drive.google.com/file/d/1jRrB2b4dR4SaBB05N8f4niXSvtCyGa_q/view?usp=sharing"
+            rel="noreferrer"
+            size="large"
+          >
+            Resume
+          </Button>
+        </div>
       </div>
-      
-
     </div>
-  )
+  );
 }
 
 export default About
