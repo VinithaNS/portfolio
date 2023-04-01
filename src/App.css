@@ -1,0 +1,9 @@
+.profile{
+  border-radius: 50%;
+  height: 40px;
+  width:50px;
+  object-fit: cover;
+}
+.port{
+   background-color:orangered; 
+}

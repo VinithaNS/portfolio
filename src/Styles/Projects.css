@@ -1,0 +1,80 @@
+body{
+    /* background-color:rgb(209, 187, 187); */
+     background-color: whitesmoke 
+     
+ } 
+.fa{
+    color:blueviolet;
+}
+span{
+    font-size: 15px;
+}
+.insidebox{
+    background-color: lightgray;
+    padding:50px 10px;
+    margin:30px 0px;
+}
+a{
+    border-bottom: 1px solid blueviolet;
+}
+.text{
+    margin:10px 0px;
+}
+.box{
+    padding:60px 0px;
+}
+.img{
+    height:140px;
+}
+.icn{
+  display: flex;
+  gap: 90px;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+ .git{
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-decoration-line: none;
+ } 
+ .project{
+     text-align: center;
+     color: rgb(5, 5, 5);
+ }
+.card-description {
+  color: rgb(15, 3, 37) !important;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.card-footer {
+  color: rgb(206, 142, 23) !important;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight:bold;
+}
+h5{
+    color: black;
+}
+p{
+    color:black;
+}
+.live-btn {
+    background-color: #3577d2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px grey;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px 10px;
+    max-width: 100%;
+    padding: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.cred{
+    margin-left: 45%;
+   
+}

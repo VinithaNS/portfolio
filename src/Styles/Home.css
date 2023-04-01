@@ -1,0 +1,28 @@
+.home-content{
+    margin-top: 250px;
+    padding: 20px;
+    
+
+}
+.home-page{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.home-right{
+    height: 80px;
+
+}
+.homes{
+    font-size: 80px;
+    text-transform: capitalize;
+    display: flex;
+    gap:20px;
+     color:black;
+}
+.fa {
+    font-size: 30px;
+}
+.home-btn{
+    margin-right: 10px;
+}
