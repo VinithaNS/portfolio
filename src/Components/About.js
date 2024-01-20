@@ -28,7 +28,7 @@ const About = () => {
         <div className="resume">
           <Button
             target="_blank"
-            href="https://drive.google.com/file/d/1V3wGsg0Gw2Rt1fwieO9UgxCix7bYqBgO/view?usp=share_link"
+            href="https://drive.google.com/file/d/1h8_OTnPFfQOp9BtNpET9UCVTqKkR0xXK/view?usp=drive_link"
             rel="noreferrer"
             size="large"
           >
