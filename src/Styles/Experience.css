@@ -1,0 +1,167 @@
+.exp-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 24px 80px;
+}
+
+.exp-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.exp-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 28px;
+  width: 2px;
+  background: var(--border-color);
+}
+
+.timeline-card {
+  position: relative;
+  margin-left: 65px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  padding: 30px;
+  transition: all 0.25s ease;
+}
+
+.timeline-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -48px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 4px solid var(--bg-primary);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.6);
+}
+
+.timeline-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 14px;
+}
+
+.company-role-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.job-role {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.company-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #60a5fa;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.job-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.job-period {
+  background: rgba(59, 130, 246, 0.12);
+  color: #93c5fd;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.job-location {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.job-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.job-bullets li {
+  font-size: 0.93rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.job-bullets li i {
+  color: #60a5fa;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.job-skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.job-pill {
+  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  background: var(--bg-secondary);
+  color: #cbd5e1;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .exp-timeline::before {
+    left: 15px;
+  }
+  .timeline-card {
+    margin-left: 45px;
+    padding: 20px;
+  }
+  .timeline-dot {
+    left: -38px;
+    width: 16px;
+    height: 16px;
+  }
+  .job-meta {
+    align-items: flex-start;
+  }
+}
